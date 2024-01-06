@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav > ul{
@@ -23,7 +24,7 @@ nav > ul{
 }
 nav li {
     list-style: none;
-    margin-right: 130px;
+    margin-right: 40px;
 }
 
 nav li a{
@@ -36,4 +37,68 @@ nav button{
     border-radius: 4px;
     border: 0;
     color: white;
+}
+
+/* Header related style */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner img {
+    width: 500px;
+    height: 500px;
+
+}
+
+.banner button{
+    padding: 10px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me section style  */
+
+.about{
+    padding: 130px;
+    background-color: #9e9393;
+}
+.about h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info{
+    text-align: center;
 }
