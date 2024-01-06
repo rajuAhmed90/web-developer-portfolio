@@ -43,9 +43,9 @@ nav button{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png') , url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 }
 
@@ -129,6 +129,8 @@ main section{
     display: flex;
     gap: 10px;
     margin-top: 40px;
+    justify-content: space-between;
+
 }
 
 .skill{
@@ -147,6 +149,7 @@ section .resume-title{
 .resume-container{
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .resume div{
@@ -160,4 +163,40 @@ section .resume-title{
     margin: 0 auto;
     display: block;
     font-weight: 700;
+}
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 50px;
+    margin-top: 130px;
+    justify-content: space-around;
+}
+
+footer div{
+    width: 300px;
+}
+
+footer img{
+    margin-right: 15px;
+}
+
+input {
+
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+
+footer .submit{
+    padding: 10px 15px;
+    border: none;
+    background-color: #FD6E0A;
 }
